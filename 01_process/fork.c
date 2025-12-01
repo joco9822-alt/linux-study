@@ -8,7 +8,7 @@ int main() {
 
     for(int i = 0; i < 10; i++) {
         printf("%d초\n", i);
-	sleep(1);
+	    sleep(1);
     } 
     
     pid_t pid = fork(); 
